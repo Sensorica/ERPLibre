@@ -32,6 +32,7 @@
     <remote name="openeducat" fetch="https://github.com/openeducat/" />
     <remote name="pledra" fetch="https://github.com/pledra/" />
     <remote name="tegin" fetch="https://github.com/tegin/" />
+    <remote name="Sensorica" fetch="https://github.com/Sensorica/" />
 
     <project
         name="OpenHRMS.git"
@@ -871,4 +872,5 @@
         groups="addons,odoo18.0"
     />
     <project name="wms.git" revision="18.0" path="odoo18.0/addons/OCA_wms" remote="OCA" groups="addons,odoo18.0" />
+    <project name="odoo-addons-nondominium.git" revision="18.0" path="odoo18.0/addons/Sensorica_odoo-addons-nondominium" remote="Sensorica" groups="addons,odoo18.0" />
 </manifest>
